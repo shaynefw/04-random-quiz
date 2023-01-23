@@ -28,4 +28,13 @@ header {
 
 }
 
+button:hover {
+    background-color: magenta;
+}
+
+#scores:hover {
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
 

@@ -2,16 +2,9 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
+This website is a simple quiz game that allows the user to test their knowledge on a variety of topics. The user starts the quiz by clicking the start button, and is then presented with multiple choice questions. The user can select an answer and will be notified if their answer is correct or incorrect. The user's score is kept throughout the quiz and at the end of the quiz, the user is prompted to enter their initials which is then added to a highscore list, which is displayed on the website. The quiz also includes a timer, that counts down from a set amount of time, and when the time runs out, the quiz ends. The user can also click on the highscore button to see the list of highscores and restart the quiz. The website is designed to be simple and easy to use, providing an interactive and engaging way to test and improve one's knowledge.
 
-- What was your motivation?
-- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
-- What problem does it solve?
-- What did you learn?
-
-## Table of Contents (Optional)
-
-If your README is long, add a table of contents to make it easy for users to find what they need.
+## Table of Contents
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -20,13 +13,27 @@ If your README is long, add a table of contents to make it easy for users to fin
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+- [Live link](https://shaynefw.github.io/04-random-quiz/)
+- [Repo Link](https://github.com/shaynefw/04-random-quiz)
 
 ## Usage
 
-Provide instructions and examples for use. Include screenshots as needed.
+1. Click on the "Start Quiz" button on the homepage.
+2. A timer will start counting down from the specified time.
+3. Each question will be displayed with multiple answer options.
+4. Select the answer you believe to be correct.
+5. If your answer is correct, you will receive a point and be shown the next question.
+6. If your answer is incorrect, you will lose time from the timer.
+7. The quiz will end when all questions have been answered or when the timer reaches zero.
+8. At the end of the quiz, you will be prompted to enter your initials.
+9. Your score and initials will be saved to the browser session.
+10. To view the high scores, click the "High Scores" button on the homepage.
+11. To restart the quiz, click the "Restart Quiz" button on the high scores page.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+Note: Make sure to enter a valid input when prompted for your initials, otherwise you will be prompted again.
+
+Good luck and have fun!
+
 
     ```md
     ![alt text](assets/images/screenshot.png)
@@ -34,11 +41,7 @@ To add a screenshot, create an `assets/images` folder in your repository and upl
 
 ## Credits
 
-List your collaborators, if any, with links to their GitHub profiles.
-
-If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-
-If you followed tutorials, include links to those here as well.
+Tutors, Instructors, Prof, [MDN](https://developer.mozilla.org/en-US/)
 
 ## License
 
@@ -74,7 +77,17 @@ Badges aren't necessary, per se, but they demonstrate street cred. Badges let ot
 
 ## Features
 
-If your project has a lot of features, list them here.
+- A quiz with multiple choice questions.
+- A timer that counts down while taking the quiz.
+- The ability to enter initials and save a score after the quiz is completed.
+- A highscores page that displays a list of past scores and initials.
+- A restart quiz button that allows the user to take the quiz again.
+- Validation for user input of initials, preventing blank submissions and invalid characters.
+- Score tracking and highscore saving.
+- Timer countdown and penalty for incorrect answers.
+- Input validation for initials at the end of the quiz.
+- Restart quiz button to start the quiz again.
+- Display highscores and the ability to clear them.
 
 ## How to Contribute
 
